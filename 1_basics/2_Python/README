@@ -8,6 +8,7 @@
 
 # setup singularity
   % module load singularity
+  % singularity shell /app/container_images/tensorflow_2.6.0.sif 
 
 # move to the working directory
   % cd ~/orientation/1_basic/2_Python/[x160y160 or x80y80]
