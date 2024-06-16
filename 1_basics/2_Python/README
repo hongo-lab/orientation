@@ -1,0 +1,22 @@
+# working directory
+# ~/orientation/1_basic/2_Python/[x160y160 or x80y80]
+
+# Edit the x_initial/y_initial values on VSCode
+
+# login on VSCode terminal
+  % qsub -q SEMINAR -I
+
+# setup singularity
+  % module load singularity
+
+# move to the working directory
+  % cd ~/orientation/1_basic/2_Python/[x160y160 or x80y80]
+
+# excute the python script, measuring the timing
+  % time python optimization2D.py
+
+# plot the result
+  % gnuplot plot.gp
+
+# open the figure
+  % evince out.eps

@@ -1,0 +1,22 @@
+# working directory
+# ~/orientation/1_basic/1_C/[x160y160 or x80y80]
+
+# Edit the x_initial/y_initial values on VSCode
+
+# login on VSCode terminal
+  % qsub -q SEMINAR -I
+
+# move to the working directory
+  % cd ~/orientation/1_basic/1_C/[x160y160 or x80y80]
+
+# compile
+  % gcc optimization2D.c -o opt -lm -O3
+
+# execute the binary, opt
+  % time ./opt
+
+# plot the result
+  % gnuplot plot.gp
+
+# open the figure
+  % evince out.eps

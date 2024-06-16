@@ -1,0 +1,12 @@
+# files:
+  # mnist.py ... Python script for MNIST classification
+
+# execute MNIST classification interactively using singularity
+  % qsub -I -q SINGLE
+  % cd ~/orientation/2_practice/1_interactive
+  % module load singularity
+  % singularity shell /app/container_images/tensorflow_2.6.0.sif
+  % python mnist.py
+
+  % ctrl+d ... quit singuularity shell mode
+  % ctrl+d ... quit pbs interactive mode

@@ -1,0 +1,27 @@
+# Open the VSCode application
+  # explore the orientation directory
+  # orientation/0_preparation
+
+# compile the C program and execute it.
+  % gcc hello.c
+  % ./a.out
+
+# edit the source code on VSCode, and then recompile and execute it.
+  % gcc hello.c
+  % ./a.out
+
+# execute the python script
+  % python hello.py
+
+# edit the script on VSCode, and execute it.
+  % python hello.py
+
+# use PBS batch job for C
+  % qsub pbs_c.sh
+  % qstat
+  % cat test.oXXXXX
+
+# use PBS batch job for Python
+  % qsub pbs_p.sh
+  % qstat
+  % cat test.oXXXXX

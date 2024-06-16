@@ -1,0 +1,8 @@
+# files:
+  # mnist.py ... python script for mnist classification
+  # pbs_p.sh ... PBS script using singularity 
+
+# execute MNIST classification on GPU and CPU using PBS
+  % cat pbs_p.sh
+  % qsub pbs_p.sh
+  % cat gpu.oXXXXX
